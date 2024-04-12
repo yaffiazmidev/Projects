@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C8896042BC9AED000A33CEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8896032BC9AED000A33CEB /* AppDelegate.swift */; };
+		3C8896062BC9AED000A33CEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8896052BC9AED000A33CEB /* SceneDelegate.swift */; };
+		3C8896082BC9AED000A33CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8896072BC9AED000A33CEB /* ViewController.swift */; };
+		3C88960B2BC9AED000A33CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8896092BC9AED000A33CEB /* Main.storyboard */; };
+		3C88960E2BC9AED000A33CEB /* DEN_TMDB_V1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C88960C2BC9AED000A33CEB /* DEN_TMDB_V1.xcdatamodeld */; };
+		3C8896102BC9AED100A33CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C88960F2BC9AED100A33CEB /* Assets.xcassets */; };
+		3C8896132BC9AED100A33CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8896112BC9AED100A33CEB /* LaunchScreen.storyboard */; };
+		3C88961E2BC9AED200A33CEB /* DEN_TMDB_V1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88961D2BC9AED200A33CEB /* DEN_TMDB_V1Tests.swift */; };
+		3C8896282BC9AED200A33CEB /* DEN_TMDB_V1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8896272BC9AED200A33CEB /* DEN_TMDB_V1UITests.swift */; };
+		3C88962A2BC9AED200A33CEB /* DEN_TMDB_V1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8896292BC9AED200A33CEB /* DEN_TMDB_V1UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C88961A2BC9AED200A33CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C8895F82BC9AED000A33CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C8895FF2BC9AED000A33CEB;
+			remoteInfo = "DEN-TMDB-V1";
+		};
+		3C8896242BC9AED200A33CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C8895F82BC9AED000A33CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C8895FF2BC9AED000A33CEB;
+			remoteInfo = "DEN-TMDB-V1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C8896002BC9AED000A33CEB /* DEN-TMDB-V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEN-TMDB-V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8896032BC9AED000A33CEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C8896052BC9AED000A33CEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C8896072BC9AED000A33CEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C88960A2BC9AED000A33CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C88960D2BC9AED000A33CEB /* DEN_TMDB_V1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DEN_TMDB_V1.xcdatamodel; sourceTree = "<group>"; };
+		3C88960F2BC9AED100A33CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C8896122BC9AED100A33CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C8896142BC9AED100A33CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C8896192BC9AED200A33CEB /* DEN-TMDB-V1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DEN-TMDB-V1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C88961D2BC9AED200A33CEB /* DEN_TMDB_V1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEN_TMDB_V1Tests.swift; sourceTree = "<group>"; };
+		3C8896232BC9AED200A33CEB /* DEN-TMDB-V1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DEN-TMDB-V1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8896272BC9AED200A33CEB /* DEN_TMDB_V1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEN_TMDB_V1UITests.swift; sourceTree = "<group>"; };
+		3C8896292BC9AED200A33CEB /* DEN_TMDB_V1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEN_TMDB_V1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C8895FD2BC9AED000A33CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8896162BC9AED200A33CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8896202BC9AED200A33CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C8895F72BC9AED000A33CEB = {
+			isa = PBXGroup;
+			children = (
+				3C8896022BC9AED000A33CEB /* DEN-TMDB-V1 */,
+				3C88961C2BC9AED200A33CEB /* DEN-TMDB-V1Tests */,
+				3C8896262BC9AED200A33CEB /* DEN-TMDB-V1UITests */,
+				3C8896012BC9AED000A33CEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C8896012BC9AED000A33CEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C8896002BC9AED000A33CEB /* DEN-TMDB-V1.app */,
+				3C8896192BC9AED200A33CEB /* DEN-TMDB-V1Tests.xctest */,
+				3C8896232BC9AED200A33CEB /* DEN-TMDB-V1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C8896022BC9AED000A33CEB /* DEN-TMDB-V1 */ = {
+			isa = PBXGroup;
+			children = (
+				3C8896032BC9AED000A33CEB /* AppDelegate.swift */,
+				3C8896052BC9AED000A33CEB /* SceneDelegate.swift */,
+				3C8896072BC9AED000A33CEB /* ViewController.swift */,
+				3C8896092BC9AED000A33CEB /* Main.storyboard */,
+				3C88960F2BC9AED100A33CEB /* Assets.xcassets */,
+				3C8896112BC9AED100A33CEB /* LaunchScreen.storyboard */,
+				3C8896142BC9AED100A33CEB /* Info.plist */,
+				3C88960C2BC9AED000A33CEB /* DEN_TMDB_V1.xcdatamodeld */,
+			);
+			path = "DEN-TMDB-V1";
+			sourceTree = "<group>";
+		};
+		3C88961C2BC9AED200A33CEB /* DEN-TMDB-V1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C88961D2BC9AED200A33CEB /* DEN_TMDB_V1Tests.swift */,
+			);
+			path = "DEN-TMDB-V1Tests";
+			sourceTree = "<group>";
+		};
+		3C8896262BC9AED200A33CEB /* DEN-TMDB-V1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C8896272BC9AED200A33CEB /* DEN_TMDB_V1UITests.swift */,
+				3C8896292BC9AED200A33CEB /* DEN_TMDB_V1UITestsLaunchTests.swift */,
+			);
+			path = "DEN-TMDB-V1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C8895FF2BC9AED000A33CEB /* DEN-TMDB-V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C88962D2BC9AED200A33CEB /* Build configuration list for PBXNativeTarget "DEN-TMDB-V1" */;
+			buildPhases = (
+				3C8895FC2BC9AED000A33CEB /* Sources */,
+				3C8895FD2BC9AED000A33CEB /* Frameworks */,
+				3C8895FE2BC9AED000A33CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DEN-TMDB-V1";
+			productName = "DEN-TMDB-V1";
+			productReference = 3C8896002BC9AED000A33CEB /* DEN-TMDB-V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C8896182BC9AED200A33CEB /* DEN-TMDB-V1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8896302BC9AED200A33CEB /* Build configuration list for PBXNativeTarget "DEN-TMDB-V1Tests" */;
+			buildPhases = (
+				3C8896152BC9AED200A33CEB /* Sources */,
+				3C8896162BC9AED200A33CEB /* Frameworks */,
+				3C8896172BC9AED200A33CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C88961B2BC9AED200A33CEB /* PBXTargetDependency */,
+			);
+			name = "DEN-TMDB-V1Tests";
+			productName = "DEN-TMDB-V1Tests";
+			productReference = 3C8896192BC9AED200A33CEB /* DEN-TMDB-V1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C8896222BC9AED200A33CEB /* DEN-TMDB-V1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8896332BC9AED200A33CEB /* Build configuration list for PBXNativeTarget "DEN-TMDB-V1UITests" */;
+			buildPhases = (
+				3C88961F2BC9AED200A33CEB /* Sources */,
+				3C8896202BC9AED200A33CEB /* Frameworks */,
+				3C8896212BC9AED200A33CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C8896252BC9AED200A33CEB /* PBXTargetDependency */,
+			);
+			name = "DEN-TMDB-V1UITests";
+			productName = "DEN-TMDB-V1UITests";
+			productReference = 3C8896232BC9AED200A33CEB /* DEN-TMDB-V1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C8895F82BC9AED000A33CEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3C8895FF2BC9AED000A33CEB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3C8896182BC9AED200A33CEB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3C8895FF2BC9AED000A33CEB;
+					};
+					3C8896222BC9AED200A33CEB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3C8895FF2BC9AED000A33CEB;
+					};
+				};
+			};
+			buildConfigurationList = 3C8895FB2BC9AED000A33CEB /* Build configuration list for PBXProject "DEN-TMDB-V1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C8895F72BC9AED000A33CEB;
+			productRefGroup = 3C8896012BC9AED000A33CEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C8895FF2BC9AED000A33CEB /* DEN-TMDB-V1 */,
+				3C8896182BC9AED200A33CEB /* DEN-TMDB-V1Tests */,
+				3C8896222BC9AED200A33CEB /* DEN-TMDB-V1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C8895FE2BC9AED000A33CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8896132BC9AED100A33CEB /* LaunchScreen.storyboard in Resources */,
+				3C8896102BC9AED100A33CEB /* Assets.xcassets in Resources */,
+				3C88960B2BC9AED000A33CEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8896172BC9AED200A33CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8896212BC9AED200A33CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C8895FC2BC9AED000A33CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8896082BC9AED000A33CEB /* ViewController.swift in Sources */,
+				3C8896042BC9AED000A33CEB /* AppDelegate.swift in Sources */,
+				3C8896062BC9AED000A33CEB /* SceneDelegate.swift in Sources */,
+				3C88960E2BC9AED000A33CEB /* DEN_TMDB_V1.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8896152BC9AED200A33CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C88961E2BC9AED200A33CEB /* DEN_TMDB_V1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C88961F2BC9AED200A33CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C88962A2BC9AED200A33CEB /* DEN_TMDB_V1UITestsLaunchTests.swift in Sources */,
+				3C8896282BC9AED200A33CEB /* DEN_TMDB_V1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C88961B2BC9AED200A33CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C8895FF2BC9AED000A33CEB /* DEN-TMDB-V1 */;
+			targetProxy = 3C88961A2BC9AED200A33CEB /* PBXContainerItemProxy */;
+		};
+		3C8896252BC9AED200A33CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C8895FF2BC9AED000A33CEB /* DEN-TMDB-V1 */;
+			targetProxy = 3C8896242BC9AED200A33CEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C8896092BC9AED000A33CEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C88960A2BC9AED000A33CEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C8896112BC9AED100A33CEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C8896122BC9AED100A33CEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C88962B2BC9AED200A33CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C88962C2BC9AED200A33CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C88962E2BC9AED200A33CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DEN-TMDB-V1/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denazmi.DEN-TMDB-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C88962F2BC9AED200A33CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DEN-TMDB-V1/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denazmi.DEN-TMDB-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C8896312BC9AED200A33CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denazmi.DEN-TMDB-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DEN-TMDB-V1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DEN-TMDB-V1";
+			};
+			name = Debug;
+		};
+		3C8896322BC9AED200A33CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denazmi.DEN-TMDB-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DEN-TMDB-V1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DEN-TMDB-V1";
+			};
+			name = Release;
+		};
+		3C8896342BC9AED200A33CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denazmi.DEN-TMDB-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DEN-TMDB-V1";
+			};
+			name = Debug;
+		};
+		3C8896352BC9AED200A33CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denazmi.DEN-TMDB-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DEN-TMDB-V1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8895FB2BC9AED000A33CEB /* Build configuration list for PBXProject "DEN-TMDB-V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C88962B2BC9AED200A33CEB /* Debug */,
+				3C88962C2BC9AED200A33CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C88962D2BC9AED200A33CEB /* Build configuration list for PBXNativeTarget "DEN-TMDB-V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C88962E2BC9AED200A33CEB /* Debug */,
+				3C88962F2BC9AED200A33CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8896302BC9AED200A33CEB /* Build configuration list for PBXNativeTarget "DEN-TMDB-V1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8896312BC9AED200A33CEB /* Debug */,
+				3C8896322BC9AED200A33CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8896332BC9AED200A33CEB /* Build configuration list for PBXNativeTarget "DEN-TMDB-V1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8896342BC9AED200A33CEB /* Debug */,
+				3C8896352BC9AED200A33CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C88960C2BC9AED000A33CEB /* DEN_TMDB_V1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C88960D2BC9AED000A33CEB /* DEN_TMDB_V1.xcdatamodel */,
+			);
+			currentVersion = 3C88960D2BC9AED000A33CEB /* DEN_TMDB_V1.xcdatamodel */;
+			path = DEN_TMDB_V1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C8895F82BC9AED000A33CEB /* Project object */;
+}

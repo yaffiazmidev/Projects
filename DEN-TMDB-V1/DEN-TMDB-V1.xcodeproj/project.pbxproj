@@ -19,6 +19,7 @@
 		3C88962A2BC9AED200A33CEB /* DEN_TMDB_V1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8896292BC9AED200A33CEB /* DEN_TMDB_V1UITestsLaunchTests.swift */; };
 		3C8896382BC9B2C000A33CEB /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8896372BC9B2C000A33CEB /* HTTPClient.swift */; };
 		3C88963E2BC9B4D600A33CEB /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88963D2BC9B4D600A33CEB /* URLSessionHTTPClient.swift */; };
+		3C8896422BC9B7E100A33CEB /* URLRequest+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8896412BC9B7E100A33CEB /* URLRequest+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3C8896292BC9AED200A33CEB /* DEN_TMDB_V1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEN_TMDB_V1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3C8896372BC9B2C000A33CEB /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		3C88963D2BC9B4D600A33CEB /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
+		3C8896412BC9B7E100A33CEB /* URLRequest+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				3C88963C2BC9B4CA00A33CEB /* URLSessionHTTPClient */,
 				3C8896372BC9B2C000A33CEB /* HTTPClient.swift */,
+				3C8896412BC9B7E100A33CEB /* URLRequest+Ext.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				3C8896042BC9AED000A33CEB /* AppDelegate.swift in Sources */,
 				3C8896062BC9AED000A33CEB /* SceneDelegate.swift in Sources */,
 				3C88960E2BC9AED000A33CEB /* DEN_TMDB_V1.xcdatamodeld in Sources */,
+				3C8896422BC9B7E100A33CEB /* URLRequest+Ext.swift in Sources */,
 				3C88963E2BC9B4D600A33CEB /* URLSessionHTTPClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

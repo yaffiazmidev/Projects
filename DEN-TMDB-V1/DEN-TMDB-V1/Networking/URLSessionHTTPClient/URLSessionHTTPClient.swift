@@ -45,3 +45,11 @@ final class URLSessionHTTPClient: HTTPClient {
         return URLSessionTaskWrapper(wrapped: task)
     }
 }
+
+private extension URLSessionHTTPClient {
+    func enrich(_ request: URLRequest) -> URLRequest {
+        var request = request
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        return request
+    }
+}

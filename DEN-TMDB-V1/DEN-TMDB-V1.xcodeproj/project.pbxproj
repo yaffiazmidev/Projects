@@ -21,6 +21,8 @@
 		3C88963E2BC9B4D600A33CEB /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88963D2BC9B4D600A33CEB /* URLSessionHTTPClient.swift */; };
 		3C8896422BC9B7E100A33CEB /* URLRequest+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8896412BC9B7E100A33CEB /* URLRequest+Ext.swift */; };
 		3C8896462BC9BB1900A33CEB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8896452BC9BB1900A33CEB /* HomeController.swift */; };
+		3C8896492BCDA13600A33CEB /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8896482BCDA13600A33CEB /* HomeInteractor.swift */; };
+		3C88964B2BCDA38B00A33CEB /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88964A2BCDA38B00A33CEB /* HomePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		3C88963D2BC9B4D600A33CEB /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		3C8896412BC9B7E100A33CEB /* URLRequest+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Ext.swift"; sourceTree = "<group>"; };
 		3C8896452BC9BB1900A33CEB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		3C8896482BCDA13600A33CEB /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		3C88964A2BCDA38B00A33CEB /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				3C8896452BC9BB1900A33CEB /* HomeController.swift */,
+				3C8896482BCDA13600A33CEB /* HomeInteractor.swift */,
+				3C88964A2BCDA38B00A33CEB /* HomePresenter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -308,9 +314,11 @@
 				3C8896082BC9AED000A33CEB /* ViewController.swift in Sources */,
 				3C8896382BC9B2C000A33CEB /* HTTPClient.swift in Sources */,
 				3C8896042BC9AED000A33CEB /* AppDelegate.swift in Sources */,
+				3C88964B2BCDA38B00A33CEB /* HomePresenter.swift in Sources */,
 				3C8896062BC9AED000A33CEB /* SceneDelegate.swift in Sources */,
 				3C8896462BC9BB1900A33CEB /* HomeController.swift in Sources */,
 				3C88960E2BC9AED000A33CEB /* DEN_TMDB_V1.xcdatamodeld in Sources */,
+				3C8896492BCDA13600A33CEB /* HomeInteractor.swift in Sources */,
 				3C8896422BC9B7E100A33CEB /* URLRequest+Ext.swift in Sources */,
 				3C88963E2BC9B4D600A33CEB /* URLSessionHTTPClient.swift in Sources */,
 			);

@@ -8,6 +8,7 @@
 import Foundation
 
 protocol IHomePresenter {
+    func presentNowPlaying(with result: NowPlayingLoader.Result)
 }
 
 class HomePresenter: IHomePresenter {
@@ -15,4 +16,13 @@ class HomePresenter: IHomePresenter {
     weak var controller: IHomeController?
     
     init() {}
+    
+    func presentNowPlaying(with result: NowPlayingLoader.Result) {
+        switch result {
+        case .success(let response):
+            controller?.displayNowPlayingMovies(with: response.items)
+        case .failure(let error):
+            controller?.displayError(with: error.localizedDescription)
+        }
+    }
 }

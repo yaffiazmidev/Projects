@@ -8,6 +8,8 @@
 import UIKit
 
 protocol IHomeController: AnyObject {
+    func displayNowPlayingMovies(with items: [NowPlayingItem])
+    func displayError(with message: String)
 }
 
 class HomeController: UIViewController {
@@ -17,6 +19,7 @@ class HomeController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        interactor.fetchNowPlaying()
     }
     
     init(interactor: IHomeInteractor) {
@@ -30,7 +33,11 @@ class HomeController: UIViewController {
 }
 
 extension HomeController: IHomeController {
+    func displayNowPlayingMovies(with items: [NowPlayingItem]) {
+        print(items.compactMap({ $0.title }))
+    }
+    
+    func displayError(with message: String) {
+        print(message)
+    }
 }
-
-
-

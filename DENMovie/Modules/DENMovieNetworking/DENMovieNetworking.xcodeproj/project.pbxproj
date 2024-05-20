@@ -13,6 +13,7 @@
 		3C91CA162BFB3B1400E9B8D0 /* DENMovieNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C91CA082BFB3B1300E9B8D0 /* DENMovieNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C91CA472BFB4B0200E9B8D0 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C91CA462BFB4B0200E9B8D0 /* HTTPClient.swift */; };
 		3C91CA492BFB4B6F00E9B8D0 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C91CA482BFB4B6F00E9B8D0 /* URLSessionHTTPClient.swift */; };
+		3C91CAA92BFB8FCE00E9B8D0 /* URLRequest+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C91CAA82BFB8FCE00E9B8D0 /* URLRequest+Builder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		3C91CA142BFB3B1400E9B8D0 /* DENMovieNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DENMovieNetworkingTests.swift; sourceTree = "<group>"; };
 		3C91CA462BFB4B0200E9B8D0 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		3C91CA482BFB4B6F00E9B8D0 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
+		3C91CAA82BFB8FCE00E9B8D0 /* URLRequest+Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Builder.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				3C91CA462BFB4B0200E9B8D0 /* HTTPClient.swift */,
 				3C91CA4A2BFB50DE00E9B8D0 /* URLSession */,
+				3C91CAA82BFB8FCE00E9B8D0 /* URLRequest+Builder.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C91CA472BFB4B0200E9B8D0 /* HTTPClient.swift in Sources */,
+				3C91CAA92BFB8FCE00E9B8D0 /* URLRequest+Builder.swift in Sources */,
 				3C91CA0A2BFB3B1300E9B8D0 /* DENMovieNetworking.docc in Sources */,
 				3C91CA492BFB4B6F00E9B8D0 /* URLSessionHTTPClient.swift in Sources */,
 			);

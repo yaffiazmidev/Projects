@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  DEN-TMDB-V1
+//  EssentialFeed
 //
-//  Created by DENAZMI on 13/04/24.
+//  Created by DENAZMI on 07/05/24.
 //
 
 import UIKit
@@ -10,21 +10,13 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-    
-    private let baseURL: URL = URL(string: "https://api.themoviedb.org")!
+
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let windowScene = (scene as? UIWindowScene) else { return }
-        
-        let window = UIWindow(windowScene: windowScene)
-        let rootVC = makeHomeController()
-        window.rootViewController = UINavigationController(rootViewController: rootVC)
-        window.makeKeyAndVisible()
-        
-        self.window = window
+        guard let _ = (scene as? UIWindowScene) else { return }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -61,30 +53,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
-extension SceneDelegate {
-    func makeHomeController() -> HomeController {
-        
-        let controller = HomeController()
-        let presenter = HomePresenter()
-        
-        let nowPlayingLoader = RemoteNowPlayingLoader(
-            baseURL: baseURL,
-            client: makeAuthenticatedHTTPClient()
-        )
-        
-        let interactor = HomeInteractor(
-            presenter: presenter,
-            nowPlayingLoader: nowPlayingLoader
-        )
-        
-        controller.interactor = interactor
-        presenter.controller = controller
-        
-        return controller
-    }
-    
-    func makeAuthenticatedHTTPClient() -> HTTPClient {
-        let config = APIConfig(secret: "524c1cb44f3108915ee3dd519f3e45bd")
-        return AuthenticatedHTTPClient(config: config)
-    }
-}

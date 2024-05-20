@@ -32,7 +32,7 @@ public final class RemoteNowPlayingLoader: NowPlayingLoader {
     public func execute(_ request: PagedNowPlayingRequest, completion: @escaping (Result) -> Void) {
         let request = enrich(baseURL: baseURL, request: request)
         
-        task = client.fetch(request) { [weak self] result in
+        task = client.request(request) { [weak self] result in
             guard self != nil else { return }
             
             switch result {

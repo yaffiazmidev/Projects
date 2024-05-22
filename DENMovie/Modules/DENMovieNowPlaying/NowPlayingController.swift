@@ -1,15 +1,15 @@
 //
 //  NowPlayingController.swift
-//  DENMovieNowPlaying
+//  DENMovieNowPlayingiOS
 //
 //  Created by DENAZMI on 22/05/24.
 //
 
 import UIKit
 
-class NowPlayingController: UIViewController {
+public class NowPlayingController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
         // Do any additional setup after loading the view.

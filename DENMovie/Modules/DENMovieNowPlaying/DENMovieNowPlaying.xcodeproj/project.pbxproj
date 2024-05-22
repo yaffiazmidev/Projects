@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C8381652BFD98BA003A7264 /* DENMovieNowPlayingiOS.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3C8381632BFD98BA003A7264 /* DENMovieNowPlayingiOS.docc */; };
+		3C8381662BFD98BA003A7264 /* DENMovieNowPlayingiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8381642BFD98BA003A7264 /* DENMovieNowPlayingiOS.h */; };
+		3C83816B2BFD99C2003A7264 /* NowPlayingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83816A2BFD99C2003A7264 /* NowPlayingController.swift */; };
 		3C91CA7E2BFB811400E9B8D0 /* DENMovieNowPlaying.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3C91CA7D2BFB811400E9B8D0 /* DENMovieNowPlaying.docc */; };
 		3C91CA8A2BFB811400E9B8D0 /* DENMovieNowPlaying.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C91CA7C2BFB811400E9B8D0 /* DENMovieNowPlaying.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C91CA982BFB817B00E9B8D0 /* NowPlayingLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C91CA972BFB817B00E9B8D0 /* NowPlayingLoader.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C8381632BFD98BA003A7264 /* DENMovieNowPlayingiOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DENMovieNowPlayingiOS.docc; sourceTree = "<group>"; };
+		3C8381642BFD98BA003A7264 /* DENMovieNowPlayingiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DENMovieNowPlayingiOS.h; sourceTree = "<group>"; };
+		3C83816A2BFD99C2003A7264 /* NowPlayingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingController.swift; sourceTree = "<group>"; };
 		3C91CA792BFB811400E9B8D0 /* DENMovieNowPlaying.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DENMovieNowPlaying.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C91CA7C2BFB811400E9B8D0 /* DENMovieNowPlaying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DENMovieNowPlaying.h; sourceTree = "<group>"; };
 		3C91CA7D2BFB811400E9B8D0 /* DENMovieNowPlaying.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DENMovieNowPlaying.docc; sourceTree = "<group>"; };
@@ -41,10 +47,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C8381622BFD98BA003A7264 /* DENMovieNowPlayingiOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C8381672BFD98EA003A7264 /* Sources */,
+				3C8381632BFD98BA003A7264 /* DENMovieNowPlayingiOS.docc */,
+				3C8381642BFD98BA003A7264 /* DENMovieNowPlayingiOS.h */,
+			);
+			name = DENMovieNowPlayingiOS;
+			path = DENMovieNowPlayingiOS/DENMovieNowPlayingiOS;
+			sourceTree = "<group>";
+		};
+		3C8381672BFD98EA003A7264 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3C8381692BFD9901003A7264 /* Views */,
+				3C8381682BFD98F7003A7264 /* Controllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3C8381682BFD98F7003A7264 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C83816A2BFD99C2003A7264 /* NowPlayingController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C8381692BFD9901003A7264 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3C91CA6F2BFB811400E9B8D0 = {
 			isa = PBXGroup;
 			children = (
 				3C91CA7B2BFB811400E9B8D0 /* DENMovieNowPlaying */,
+				3C8381622BFD98BA003A7264 /* DENMovieNowPlayingiOS */,
 				3C91CA7A2BFB811400E9B8D0 /* Products */,
 				3C91CA992BFB820400E9B8D0 /* Frameworks */,
 			);
@@ -120,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C91CA8A2BFB811400E9B8D0 /* DENMovieNowPlaying.h in Headers */,
+				3C8381662BFD98BA003A7264 /* DENMovieNowPlayingiOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,10 +236,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C91CA982BFB817B00E9B8D0 /* NowPlayingLoader.swift in Sources */,
+				3C83816B2BFD99C2003A7264 /* NowPlayingController.swift in Sources */,
 				3C91CA9F2BFB82C100E9B8D0 /* NowPlayingItem.swift in Sources */,
 				3C91CA7E2BFB811400E9B8D0 /* DENMovieNowPlaying.docc in Sources */,
 				3C91CAA52BFB890600E9B8D0 /* NowPlayingItemsMapper.swift in Sources */,
 				3C91CAA32BFB834A00E9B8D0 /* RemoteNowPlayingLoader.swift in Sources */,
+				3C8381652BFD98BA003A7264 /* DENMovieNowPlayingiOS.docc in Sources */,
 				3C91CAA12BFB82F500E9B8D0 /* NowPlayingFeed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -51,8 +51,8 @@ public final class RemoteNowPlayingLoader: NowPlayingLoader {
 
 private extension RemoteNowPlayingLoader {
     private func enrich(baseURL: URL, request: PagedNowPlayingRequest) -> URLRequest {
-        return .url(baseURL)
-            .path("3/movie/now_playing")
+        return URLRequest.url(baseURL)
+            .path("/3/movie/now_playing")
             .queries([
                 .init(name: "page", value: "\(request.page)"),
                 .init(name: "query", value: request.query),

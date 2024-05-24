@@ -8,7 +8,6 @@
 import Foundation
 
 public extension URLRequest {
-    
     struct Builder {
         
         public enum HTTPMethod: String {
@@ -61,15 +60,14 @@ public extension URLRequest {
         
         public func queries(_ queries: [URLQueryItem]) -> Builder {
             var builder = self
-            builder.components.queryItems = queries.compactMap({ $0 })
+            builder.components.queryItems = queries.compactMap { $0 }
             return builder
         }
-        
+                
         public func build() -> URLRequest {
             guard let url = components.url else {
                 fatalError("URL is not set")
             }
-            
             var request = URLRequest(url: url)
             request.httpMethod = method.rawValue
             request.allHTTPHeaderFields = headers

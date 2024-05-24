@@ -14,6 +14,7 @@
 		3C91CA472BFB4B0200E9B8D0 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C91CA462BFB4B0200E9B8D0 /* HTTPClient.swift */; };
 		3C91CA492BFB4B6F00E9B8D0 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C91CA482BFB4B6F00E9B8D0 /* URLSessionHTTPClient.swift */; };
 		3C91CAA92BFB8FCE00E9B8D0 /* URLRequest+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C91CAA82BFB8FCE00E9B8D0 /* URLRequest+Builder.swift */; };
+		3C9679182C00671000F119B5 /* AuthenticatedHTTPClientDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9679172C00671000F119B5 /* AuthenticatedHTTPClientDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		3C91CA462BFB4B0200E9B8D0 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		3C91CA482BFB4B6F00E9B8D0 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		3C91CAA82BFB8FCE00E9B8D0 /* URLRequest+Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Builder.swift"; sourceTree = "<group>"; };
+		3C9679172C00671000F119B5 /* AuthenticatedHTTPClientDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedHTTPClientDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,10 @@
 		3C91CA432BFB3C1700E9B8D0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3C91CA462BFB4B0200E9B8D0 /* HTTPClient.swift */,
 				3C91CA4A2BFB50DE00E9B8D0 /* URLSession */,
+				3C91CA462BFB4B0200E9B8D0 /* HTTPClient.swift */,
 				3C91CAA82BFB8FCE00E9B8D0 /* URLRequest+Builder.swift */,
+				3C9679172C00671000F119B5 /* AuthenticatedHTTPClientDecorator.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				3C91CA472BFB4B0200E9B8D0 /* HTTPClient.swift in Sources */,
 				3C91CAA92BFB8FCE00E9B8D0 /* URLRequest+Builder.swift in Sources */,
 				3C91CA0A2BFB3B1300E9B8D0 /* DENMovieNetworking.docc in Sources */,
+				3C9679182C00671000F119B5 /* AuthenticatedHTTPClientDecorator.swift in Sources */,
 				3C91CA492BFB4B6F00E9B8D0 /* URLSessionHTTPClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

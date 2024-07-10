@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		3C03F41B2C3F1B86001849EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F41A2C3F1B86001849EF /* AppDelegate.swift */; };
 		3C03F41D2C3F1B86001849EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F41C2C3F1B86001849EF /* SceneDelegate.swift */; };
-		3C03F41F2C3F1B86001849EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F41E2C3F1B86001849EF /* ViewController.swift */; };
-		3C03F4222C3F1B86001849EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C03F4202C3F1B86001849EF /* Main.storyboard */; };
 		3C03F4252C3F1B86001849EF /* DENMov.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4232C3F1B86001849EF /* DENMov.xcdatamodeld */; };
 		3C03F4272C3F1B87001849EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C03F4262C3F1B87001849EF /* Assets.xcassets */; };
 		3C03F42A2C3F1B87001849EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C03F4282C3F1B87001849EF /* LaunchScreen.storyboard */; };
@@ -40,8 +38,6 @@
 		3C03F4172C3F1B86001849EF /* DENMov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DENMov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C03F41A2C3F1B86001849EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C03F41C2C3F1B86001849EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C03F41E2C3F1B86001849EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C03F4212C3F1B86001849EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C03F4242C3F1B86001849EF /* DENMov.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DENMov.xcdatamodel; sourceTree = "<group>"; };
 		3C03F4262C3F1B87001849EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C03F4292C3F1B87001849EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +99,6 @@
 			children = (
 				3C03F41A2C3F1B86001849EF /* AppDelegate.swift */,
 				3C03F41C2C3F1B86001849EF /* SceneDelegate.swift */,
-				3C03F41E2C3F1B86001849EF /* ViewController.swift */,
-				3C03F4202C3F1B86001849EF /* Main.storyboard */,
 				3C03F4262C3F1B87001849EF /* Assets.xcassets */,
 				3C03F4282C3F1B87001849EF /* LaunchScreen.storyboard */,
 				3C03F42B2C3F1B87001849EF /* Info.plist */,
@@ -236,7 +230,6 @@
 			files = (
 				3C03F42A2C3F1B87001849EF /* LaunchScreen.storyboard in Resources */,
 				3C03F4272C3F1B87001849EF /* Assets.xcassets in Resources */,
-				3C03F4222C3F1B86001849EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C03F4252C3F1B86001849EF /* DENMov.xcdatamodeld in Sources */,
-				3C03F41F2C3F1B86001849EF /* ViewController.swift in Sources */,
 				3C03F41B2C3F1B86001849EF /* AppDelegate.swift in Sources */,
 				3C03F41D2C3F1B86001849EF /* SceneDelegate.swift in Sources */,
 			);
@@ -301,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3C03F4202C3F1B86001849EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C03F4212C3F1B86001849EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3C03F4282C3F1B87001849EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -451,7 +435,7 @@
 				INFOPLIST_FILE = DENMov/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -480,7 +464,7 @@
 				INFOPLIST_FILE = DENMov/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

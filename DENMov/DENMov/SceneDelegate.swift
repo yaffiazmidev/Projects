@@ -14,21 +14,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(windowScene: windowScene)
         
-        configureRootController(with: windowScene)
+        configureRootController()
     }
     
-    private func configureRootController(with windowScene: UIWindowScene) {
-        let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = UINavigationController(rootViewController: makeRootController())
-        window.makeKeyAndVisible()
-        window.overrideUserInterfaceStyle = .light
-        self.window = window
+    private func configureRootController() {
+        window?.rootViewController = UINavigationController(rootViewController: makeRootController())
+        window?.makeKeyAndVisible()
+        window?.overrideUserInterfaceStyle = .light
     }
     
     private func makeRootController() -> UIViewController {
         let vc = UIViewController()
-        vc.view.backgroundColor = .white
+        vc.view.backgroundColor = .red
         return vc
     }
 }

@@ -497,7 +497,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XLFSR5SCHV;
+				DEVELOPMENT_TEAM = AM6A64NDM6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DENMovie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -528,7 +528,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XLFSR5SCHV;
+				DEVELOPMENT_TEAM = AM6A64NDM6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DENMovie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

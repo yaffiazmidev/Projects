@@ -41,6 +41,12 @@ public extension URLRequest {
             return builder
         }
         
+        public func path(_ path: String) -> Builder {
+            var builder = self
+            builder.components.path += path
+            return builder
+        }
+        
         public func headers(key: String, value: String) -> Builder {
             var builder = self
             builder.headers[key] = value

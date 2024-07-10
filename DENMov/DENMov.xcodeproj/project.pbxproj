@@ -13,19 +13,10 @@
 		3C03F4272C3F1B87001849EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C03F4262C3F1B87001849EF /* Assets.xcassets */; };
 		3C03F42A2C3F1B87001849EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C03F4282C3F1B87001849EF /* LaunchScreen.storyboard */; };
 		3C03F4352C3F1B87001849EF /* DENMovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4342C3F1B87001849EF /* DENMovTests.swift */; };
-		3C03F43F2C3F1B87001849EF /* DENMovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F43E2C3F1B87001849EF /* DENMovUITests.swift */; };
-		3C03F4412C3F1B87001849EF /* DENMovUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4402C3F1B87001849EF /* DENMovUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		3C03F4312C3F1B87001849EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3C03F40F2C3F1B86001849EF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C03F4162C3F1B86001849EF;
-			remoteInfo = DENMov;
-		};
-		3C03F43B2C3F1B87001849EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3C03F40F2C3F1B86001849EF /* Project object */;
 			proxyType = 1;
@@ -44,9 +35,6 @@
 		3C03F42B2C3F1B87001849EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C03F4302C3F1B87001849EF /* DENMovTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DENMovTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C03F4342C3F1B87001849EF /* DENMovTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DENMovTests.swift; sourceTree = "<group>"; };
-		3C03F43A2C3F1B87001849EF /* DENMovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DENMovUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C03F43E2C3F1B87001849EF /* DENMovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DENMovUITests.swift; sourceTree = "<group>"; };
-		3C03F4402C3F1B87001849EF /* DENMovUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DENMovUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C03F4372C3F1B87001849EF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +60,6 @@
 			children = (
 				3C03F4192C3F1B86001849EF /* DENMov */,
 				3C03F4332C3F1B87001849EF /* DENMovTests */,
-				3C03F43D2C3F1B87001849EF /* DENMovUITests */,
 				3C03F4182C3F1B86001849EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +69,6 @@
 			children = (
 				3C03F4172C3F1B86001849EF /* DENMov.app */,
 				3C03F4302C3F1B87001849EF /* DENMovTests.xctest */,
-				3C03F43A2C3F1B87001849EF /* DENMovUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,15 +92,6 @@
 				3C03F4342C3F1B87001849EF /* DENMovTests.swift */,
 			);
 			path = DENMovTests;
-			sourceTree = "<group>";
-		};
-		3C03F43D2C3F1B87001849EF /* DENMovUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3C03F43E2C3F1B87001849EF /* DENMovUITests.swift */,
-				3C03F4402C3F1B87001849EF /* DENMovUITestsLaunchTests.swift */,
-			);
-			path = DENMovUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,24 +132,6 @@
 			productReference = 3C03F4302C3F1B87001849EF /* DENMovTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3C03F4392C3F1B87001849EF /* DENMovUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3C03F44A2C3F1B87001849EF /* Build configuration list for PBXNativeTarget "DENMovUITests" */;
-			buildPhases = (
-				3C03F4362C3F1B87001849EF /* Sources */,
-				3C03F4372C3F1B87001849EF /* Frameworks */,
-				3C03F4382C3F1B87001849EF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3C03F43C2C3F1B87001849EF /* PBXTargetDependency */,
-			);
-			name = DENMovUITests;
-			productName = DENMovUITests;
-			productReference = 3C03F43A2C3F1B87001849EF /* DENMovUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,10 +146,6 @@
 						CreatedOnToolsVersion = 15.2;
 					};
 					3C03F42F2C3F1B87001849EF = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 3C03F4162C3F1B86001849EF;
-					};
-					3C03F4392C3F1B87001849EF = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 3C03F4162C3F1B86001849EF;
 					};
@@ -218,7 +166,6 @@
 			targets = (
 				3C03F4162C3F1B86001849EF /* DENMov */,
 				3C03F42F2C3F1B87001849EF /* DENMovTests */,
-				3C03F4392C3F1B87001849EF /* DENMovUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,13 +181,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3C03F42E2C3F1B87001849EF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C03F4382C3F1B87001849EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,15 +208,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C03F4362C3F1B87001849EF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C03F43F2C3F1B87001849EF /* DENMovUITests.swift in Sources */,
-				3C03F4412C3F1B87001849EF /* DENMovUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -284,11 +215,6 @@
 			isa = PBXTargetDependency;
 			target = 3C03F4162C3F1B86001849EF /* DENMov */;
 			targetProxy = 3C03F4312C3F1B87001849EF /* PBXContainerItemProxy */;
-		};
-		3C03F43C2C3F1B87001849EF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3C03F4162C3F1B86001849EF /* DENMov */;
-			targetProxy = 3C03F43B2C3F1B87001849EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -488,6 +414,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLFSR5SCHV;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -507,6 +434,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLFSR5SCHV;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -516,40 +444,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DENMov.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DENMov";
-			};
-			name = Release;
-		};
-		3C03F44B2C3F1B87001849EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.denazmi.DENMovUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DENMov;
-			};
-			name = Debug;
-		};
-		3C03F44C2C3F1B87001849EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.denazmi.DENMovUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DENMov;
 			};
 			name = Release;
 		};
@@ -579,15 +473,6 @@
 			buildConfigurations = (
 				3C03F4482C3F1B87001849EF /* Debug */,
 				3C03F4492C3F1B87001849EF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3C03F44A2C3F1B87001849EF /* Build configuration list for PBXNativeTarget "DENMovUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C03F44B2C3F1B87001849EF /* Debug */,
-				3C03F44C2C3F1B87001849EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

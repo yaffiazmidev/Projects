@@ -29,6 +29,10 @@ class HomeController: UIViewController {
                 print(String(data: data, encoding: .utf8) ?? "", response)
             }
         }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            showDetail?("asdasd")
+        }
     }
     
     required init?(coder: NSCoder) {

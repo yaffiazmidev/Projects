@@ -7,14 +7,6 @@
 
 import Foundation
 
-public struct APIConfig: Decodable {
-    public let secret: String
-    
-    public init(secret: String) {
-        self.secret = secret
-    }
-}
-
 func getConfig<T: Decodable>(fromPlist resource: String) -> T {
     guard
         let path = Bundle.main.path(forResource: resource, ofType: "plist"),

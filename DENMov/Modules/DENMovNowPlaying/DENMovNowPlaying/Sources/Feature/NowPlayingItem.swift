@@ -7,15 +7,15 @@
 
 import Foundation
 
-public struct NowPlayingItem {
-    public let id: String
+public struct NowPlayingItem: Equatable {
+    public let id: Int
     public let title: String
     public let imagePath: String
     public let releaseDate: String
     public let genreIds: [Int]
     
     public init(
-        id: String,
+        id: Int,
         title: String,
         imagePath: String,
         releaseDate: String,

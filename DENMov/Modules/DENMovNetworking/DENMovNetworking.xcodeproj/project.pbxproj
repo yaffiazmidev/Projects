@@ -13,6 +13,7 @@
 		3C03F4752C3F2237001849EF /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4742C3F2237001849EF /* URLSessionHTTPClient.swift */; };
 		3C03F4772C3F24CE001849EF /* URLRequest+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4762C3F24CE001849EF /* URLRequest+Builder.swift */; };
 		3C03F48B2C3FB8AF001849EF /* AuthenticatedHTTPClientDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F48A2C3FB8AF001849EF /* AuthenticatedHTTPClientDecorator.swift */; };
+		3C03F4B22C40B918001849EF /* DENMovError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4B12C40B918001849EF /* DENMovError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3C03F4742C3F2237001849EF /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		3C03F4762C3F24CE001849EF /* URLRequest+Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Builder.swift"; sourceTree = "<group>"; };
 		3C03F48A2C3FB8AF001849EF /* AuthenticatedHTTPClientDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedHTTPClientDecorator.swift; sourceTree = "<group>"; };
+		3C03F4B12C40B918001849EF /* DENMovError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DENMovError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3C03F4742C3F2237001849EF /* URLSessionHTTPClient.swift */,
 				3C03F48A2C3FB8AF001849EF /* AuthenticatedHTTPClientDecorator.swift */,
 				3C03F4762C3F24CE001849EF /* URLRequest+Builder.swift */,
+				3C03F4B12C40B918001849EF /* DENMovError.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				3C03F45C2C3F1F8E001849EF /* DENMovNetworking.docc in Sources */,
 				3C03F48B2C3FB8AF001849EF /* AuthenticatedHTTPClientDecorator.swift in Sources */,
 				3C03F4752C3F2237001849EF /* URLSessionHTTPClient.swift in Sources */,
+				3C03F4B22C40B918001849EF /* DENMovError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,9 @@
 		3C03F4A72C40B3EB001849EF /* NowPlayingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4A62C40B3EB001849EF /* NowPlayingItem.swift */; };
 		3C03F4A92C40B4C2001849EF /* NowPlayingLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4A82C40B4C2001849EF /* NowPlayingLoader.swift */; };
 		3C03F4AC2C40B529001849EF /* DENMovNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C03F4AB2C40B529001849EF /* DENMovNetworking.framework */; };
+		3C03F4B02C40B5D7001849EF /* RemoteNowPlayingLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4AF2C40B5D7001849EF /* RemoteNowPlayingLoader.swift */; };
+		3C03F4B42C40B93F001849EF /* NowPlayingItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4B32C40B93F001849EF /* NowPlayingItemMapper.swift */; };
+		3C03F4B62C40BF0B001849EF /* NowPlayingFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4B52C40BF0B001849EF /* NowPlayingFeed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		3C03F4A62C40B3EB001849EF /* NowPlayingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingItem.swift; sourceTree = "<group>"; };
 		3C03F4A82C40B4C2001849EF /* NowPlayingLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingLoader.swift; sourceTree = "<group>"; };
 		3C03F4AB2C40B529001849EF /* DENMovNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DENMovNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C03F4AF2C40B5D7001849EF /* RemoteNowPlayingLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteNowPlayingLoader.swift; sourceTree = "<group>"; };
+		3C03F4B32C40B93F001849EF /* NowPlayingItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingItemMapper.swift; sourceTree = "<group>"; };
+		3C03F4B52C40BF0B001849EF /* NowPlayingFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingFeed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 			children = (
 				3C03F4A62C40B3EB001849EF /* NowPlayingItem.swift */,
 				3C03F4A82C40B4C2001849EF /* NowPlayingLoader.swift */,
+				3C03F4B52C40BF0B001849EF /* NowPlayingFeed.swift */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -84,6 +91,8 @@
 		3C03F4A42C40B39A001849EF /* API */ = {
 			isa = PBXGroup;
 			children = (
+				3C03F4AF2C40B5D7001849EF /* RemoteNowPlayingLoader.swift */,
+				3C03F4B32C40B93F001849EF /* NowPlayingItemMapper.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -184,7 +193,10 @@
 			files = (
 				3C03F4A72C40B3EB001849EF /* NowPlayingItem.swift in Sources */,
 				3C03F49B2C40B340001849EF /* DENMovNowPlaying.docc in Sources */,
+				3C03F4B42C40B93F001849EF /* NowPlayingItemMapper.swift in Sources */,
+				3C03F4B02C40B5D7001849EF /* RemoteNowPlayingLoader.swift in Sources */,
 				3C03F4A92C40B4C2001849EF /* NowPlayingLoader.swift in Sources */,
+				3C03F4B62C40BF0B001849EF /* NowPlayingFeed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

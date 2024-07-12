@@ -21,8 +21,7 @@ public struct PagedNowPlayingRequest {
 }
 
 public protocol NowPlayingLoader {
-    typealias Result = Swift.Result<(data: Data, response: HTTPURLResponse), Error>
+    typealias Result = Swift.Result<NowPlayingFeed, Error>
     
-    @discardableResult
-    func load(_ request: URLRequest, completion: @escaping (Result) ->Void) -> HTTPClientTask
+    func load(_ request: PagedNowPlayingRequest, completion: @escaping (Result) ->Void)
 }

@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "container:DENMov.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Modules/DENMovNetworking/DENMovNetworking.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:DENMov.xcodeproj">
+      location = "group:Modules/DENMovNowPlaying/DENMovNowPlaying.xcodeproj">
    </FileRef>
 </Workspace>

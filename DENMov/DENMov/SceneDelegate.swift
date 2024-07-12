@@ -34,7 +34,8 @@ extension SceneDelegate {
     
     private func makeHomeController() -> UIViewController {
         let client = URLSessionHTTPClient()
-        let vc = HomeController(client: client, request: makeNowPlayingRequest())
+        let authenticatedHTTPClient = AuthenticatedHTTPClientDecorator(decoratee: client, config: config)
+        let vc = HomeController(client: authenticatedHTTPClient, request: makeNowPlayingRequest())
         return vc
     }
 }
@@ -52,8 +53,7 @@ extension SceneDelegate {
             .queries([
                 .init(name: "page", value: "\(1)"),
                 .init(name: "query", value: ""),
-                .init(name: "language", value: "ID-id"),
-                .init(name: "api_key", value: config.secret)
+                .init(name: "language", value: "ID-id")
             ])
             .build()
     }

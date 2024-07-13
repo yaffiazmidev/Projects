@@ -18,7 +18,24 @@
 		3C03F4DC2C40C1FF001849EF /* DENMovNowPlayingiOS.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4DB2C40C1FF001849EF /* DENMovNowPlayingiOS.docc */; };
 		3C03F4DD2C40C1FF001849EF /* DENMovNowPlayingiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C03F4DA2C40C1FF001849EF /* DENMovNowPlayingiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C03F4E52C40C273001849EF /* NowPlayingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4E42C40C273001849EF /* NowPlayingController.swift */; };
+		3C03F4E72C40C516001849EF /* NowPlayingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4E62C40C516001849EF /* NowPlayingCell.swift */; };
+		3C03F4E92C40C58B001849EF /* NowPlayingCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4E82C40C58B001849EF /* NowPlayingCellController.swift */; };
+		3C03F4EC2C40C5C7001849EF /* NowPlayingItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4EB2C40C5C7001849EF /* NowPlayingItemViewModel.swift */; };
+		3C03F4ED2C40C63A001849EF /* DENMovNowPlaying.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C03F4962C40B340001849EF /* DENMovNowPlaying.framework */; };
+		3C03F4F82C431A44001849EF /* NowPlayingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4F72C431A44001849EF /* NowPlayingViewModel.swift */; };
+		3C03F4FA2C431D28001849EF /* NowPlayingRefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4F92C431D28001849EF /* NowPlayingRefreshController.swift */; };
+		3C03F4FC2C43214D001849EF /* NowPlayingUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4FB2C43214D001849EF /* NowPlayingUIComposer.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C03F4EF2C40C63A001849EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C03F48D2C40B340001849EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C03F4952C40B340001849EF;
+			remoteInfo = DENMovNowPlaying;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3C03F4962C40B340001849EF /* DENMovNowPlaying.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DENMovNowPlaying.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +51,12 @@
 		3C03F4DA2C40C1FF001849EF /* DENMovNowPlayingiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DENMovNowPlayingiOS.h; sourceTree = "<group>"; };
 		3C03F4DB2C40C1FF001849EF /* DENMovNowPlayingiOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DENMovNowPlayingiOS.docc; sourceTree = "<group>"; };
 		3C03F4E42C40C273001849EF /* NowPlayingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingController.swift; sourceTree = "<group>"; };
+		3C03F4E62C40C516001849EF /* NowPlayingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingCell.swift; sourceTree = "<group>"; };
+		3C03F4E82C40C58B001849EF /* NowPlayingCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingCellController.swift; sourceTree = "<group>"; };
+		3C03F4EB2C40C5C7001849EF /* NowPlayingItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingItemViewModel.swift; sourceTree = "<group>"; };
+		3C03F4F72C431A44001849EF /* NowPlayingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewModel.swift; sourceTree = "<group>"; };
+		3C03F4F92C431D28001849EF /* NowPlayingRefreshController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingRefreshController.swift; sourceTree = "<group>"; };
+		3C03F4FB2C43214D001849EF /* NowPlayingUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingUIComposer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C03F4ED2C40C63A001849EF /* DENMovNowPlaying.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +140,7 @@
 		3C03F4A52C40B3A1001849EF /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				3C03F4EA2C40C5C1001849EF /* Models */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -141,6 +166,8 @@
 		3C03F4E12C40C20C001849EF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3C03F4F62C431A15001849EF /* Composers */,
+				3C03F4F52C4319FC001849EF /* ViewModels */,
 				3C03F4E32C40C240001849EF /* Views */,
 				3C03F4E22C40C21C001849EF /* Controllers */,
 			);
@@ -151,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				3C03F4E42C40C273001849EF /* NowPlayingController.swift */,
+				3C03F4E82C40C58B001849EF /* NowPlayingCellController.swift */,
+				3C03F4F92C431D28001849EF /* NowPlayingRefreshController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -158,8 +187,33 @@
 		3C03F4E32C40C240001849EF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3C03F4E62C40C516001849EF /* NowPlayingCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3C03F4EA2C40C5C1001849EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C03F4EB2C40C5C7001849EF /* NowPlayingItemViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C03F4F52C4319FC001849EF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3C03F4F72C431A44001849EF /* NowPlayingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3C03F4F62C431A15001849EF /* Composers */ = {
+			isa = PBXGroup;
+			children = (
+				3C03F4FB2C43214D001849EF /* NowPlayingUIComposer.swift */,
+			);
+			path = Composers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +268,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				3C03F4F02C40C63A001849EF /* PBXTargetDependency */,
 			);
 			name = DENMovNowPlayingiOS;
 			productName = DENMovNowPlayingiOS;
@@ -279,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C03F4A72C40B3EB001849EF /* NowPlayingItem.swift in Sources */,
+				3C03F4EC2C40C5C7001849EF /* NowPlayingItemViewModel.swift in Sources */,
 				3C03F49B2C40B340001849EF /* DENMovNowPlaying.docc in Sources */,
 				3C03F4B42C40B93F001849EF /* NowPlayingItemMapper.swift in Sources */,
 				3C03F4B02C40B5D7001849EF /* RemoteNowPlayingLoader.swift in Sources */,
@@ -292,11 +348,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C03F4DC2C40C1FF001849EF /* DENMovNowPlayingiOS.docc in Sources */,
+				3C03F4FA2C431D28001849EF /* NowPlayingRefreshController.swift in Sources */,
+				3C03F4E92C40C58B001849EF /* NowPlayingCellController.swift in Sources */,
+				3C03F4E72C40C516001849EF /* NowPlayingCell.swift in Sources */,
 				3C03F4E52C40C273001849EF /* NowPlayingController.swift in Sources */,
+				3C03F4FC2C43214D001849EF /* NowPlayingUIComposer.swift in Sources */,
+				3C03F4F82C431A44001849EF /* NowPlayingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C03F4F02C40C63A001849EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C03F4952C40B340001849EF /* DENMovNowPlaying */;
+			targetProxy = 3C03F4EF2C40C63A001849EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3C03F49D2C40B340001849EF /* Debug */ = {

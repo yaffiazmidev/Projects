@@ -20,6 +20,8 @@
 		3C03F4832C3F2DB6001849EF /* GETConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4822C3F2DB6001849EF /* GETConfig.swift */; };
 		3C03F4852C3F3024001849EF /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4842C3F3024001849EF /* DetailController.swift */; };
 		3C03F4872C3F305D001849EF /* SceneDelegate+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4862C3F305D001849EF /* SceneDelegate+Home.swift */; };
+		3C03F4F32C412DF0001849EF /* DENMovNowPlayingiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C03F4F22C412DF0001849EF /* DENMovNowPlayingiOS.framework */; };
+		3C03F4F42C412DF0001849EF /* DENMovNowPlayingiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C03F4F22C412DF0001849EF /* DENMovNowPlayingiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				3C03F47D2C3F2988001849EF /* DENMovNetworking.framework in Embed Frameworks */,
+				3C03F4F42C412DF0001849EF /* DENMovNowPlayingiOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +65,7 @@
 		3C03F4822C3F2DB6001849EF /* GETConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETConfig.swift; sourceTree = "<group>"; };
 		3C03F4842C3F3024001849EF /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		3C03F4862C3F305D001849EF /* SceneDelegate+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneDelegate+Home.swift"; sourceTree = "<group>"; };
+		3C03F4F22C412DF0001849EF /* DENMovNowPlayingiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DENMovNowPlayingiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C03F47C2C3F2988001849EF /* DENMovNetworking.framework in Frameworks */,
+				3C03F4F32C412DF0001849EF /* DENMovNowPlayingiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +136,7 @@
 		3C03F47A2C3F2988001849EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C03F4F22C412DF0001849EF /* DENMovNowPlayingiOS.framework */,
 				3C03F47B2C3F2988001849EF /* DENMovNetworking.framework */,
 			);
 			name = Frameworks;

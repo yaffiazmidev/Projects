@@ -75,9 +75,10 @@ private extension Array where Element == RemoteNowPlayingFeed.RemoteNowPlayingIt
 extension RemoteNowPlayingLoader {
     private func enrich(_ request: PagedNowPlayingRequest) -> URLRequest {
         return .url(baseURL)
-            .path("")
+            .path("/3/movie/now_playing")
             .queries([
                 .init(name: "language", value: request.language),
+                .init(name: "query", value: request.query),
                 .init(name: "page", value: "\(request.page)")
             ])
             .build()

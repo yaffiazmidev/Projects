@@ -7,6 +7,8 @@
 
 import UIKit
 import DENMovNetworking
+import DENMovNowPlaying
+import DENMovNowPlayingiOS
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -27,15 +29,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 extension SceneDelegate {
     private func configureRootController() {
-        navigationController.setViewControllers([makeHomeController()], animated: false)
+        navigationController.setViewControllers([makeNowPlayingController()], animated: false)
         window?.makeKeyAndVisible()
         window?.rootViewController = navigationController
     }
     
-    private func makeHomeController() -> UIViewController {
+    private func makeNowPlayingController() -> UIViewController {
         let client = URLSessionHTTPClient()
         let authenticatedHTTPClient = AuthenticatedHTTPClientDecorator(decoratee: client, config: config)
-        let vc = HomeController(client: authenticatedHTTPClient, request: makeNowPlayingRequest())
+        let loader = RemoteNowPlayingLoader(baseURL: baseURL, client: authenticatedHTTPClient)
+        let vc = NowPlayingUIComposer.compose(loader: loader)
         return vc
     }
 }
@@ -43,19 +46,6 @@ extension SceneDelegate {
 extension SceneDelegate {
     private func configureFeatures() {
         configureHomeFeature()
-    }
-}
-
-extension SceneDelegate {
-    private func makeNowPlayingRequest() -> URLRequest {
-        return .url(baseURL)
-            .path("/3/movie/now_playing")
-            .queries([
-                .init(name: "page", value: "\(1)"),
-                .init(name: "query", value: ""),
-                .init(name: "language", value: "ID-id")
-            ])
-            .build()
     }
 }
 

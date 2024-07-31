@@ -22,6 +22,7 @@
 		3C03F4872C3F305D001849EF /* SceneDelegate+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4862C3F305D001849EF /* SceneDelegate+Home.swift */; };
 		3C03F4F32C412DF0001849EF /* DENMovNowPlayingiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C03F4F22C412DF0001849EF /* DENMovNowPlayingiOS.framework */; };
 		3C03F4F42C412DF0001849EF /* DENMovNowPlayingiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C03F4F22C412DF0001849EF /* DENMovNowPlayingiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C8282A52C4AE90F004A1982 /* SceneDelegate+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8282A42C4AE90F004A1982 /* SceneDelegate+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		3C03F4842C3F3024001849EF /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		3C03F4862C3F305D001849EF /* SceneDelegate+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneDelegate+Home.swift"; sourceTree = "<group>"; };
 		3C03F4F22C412DF0001849EF /* DENMovNowPlayingiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DENMovNowPlayingiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8282A42C4AE90F004A1982 /* SceneDelegate+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneDelegate+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				3C03F47F2C3F2D53001849EF /* Utils */,
 				3C03F41A2C3F1B86001849EF /* AppDelegate.swift */,
 				3C03F41C2C3F1B86001849EF /* SceneDelegate.swift */,
+				3C8282A42C4AE90F004A1982 /* SceneDelegate+Ext.swift */,
 				3C03F4862C3F305D001849EF /* SceneDelegate+Home.swift */,
 				3C03F4782C3F292D001849EF /* HomeController.swift */,
 				3C03F4842C3F3024001849EF /* DetailController.swift */,
@@ -259,6 +262,7 @@
 				3C03F41B2C3F1B86001849EF /* AppDelegate.swift in Sources */,
 				3C03F4852C3F3024001849EF /* DetailController.swift in Sources */,
 				3C03F41D2C3F1B86001849EF /* SceneDelegate.swift in Sources */,
+				3C8282A52C4AE90F004A1982 /* SceneDelegate+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

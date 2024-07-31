@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C03F41B2C3F1B86001849EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F41A2C3F1B86001849EF /* AppDelegate.swift */; };
+		3C03F41D2C3F1B86001849EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F41C2C3F1B86001849EF /* SceneDelegate.swift */; };
+		3C03F4252C3F1B86001849EF /* DENMov.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4232C3F1B86001849EF /* DENMov.xcdatamodeld */; };
+		3C03F4272C3F1B87001849EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C03F4262C3F1B87001849EF /* Assets.xcassets */; };
+		3C03F42A2C3F1B87001849EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C03F4282C3F1B87001849EF /* LaunchScreen.storyboard */; };
+		3C03F4352C3F1B87001849EF /* DENMovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4342C3F1B87001849EF /* DENMovTests.swift */; };
+		3C03F4792C3F292D001849EF /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4782C3F292D001849EF /* HomeController.swift */; };
+		3C03F47C2C3F2988001849EF /* DENMovNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C03F47B2C3F2988001849EF /* DENMovNetworking.framework */; };
+		3C03F47D2C3F2988001849EF /* DENMovNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C03F47B2C3F2988001849EF /* DENMovNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C03F4812C3F2D7B001849EF /* APIConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C03F4802C3F2D7B001849EF /* APIConfig.plist */; };
+		3C03F4832C3F2DB6001849EF /* GETConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4822C3F2DB6001849EF /* GETConfig.swift */; };
+		3C03F4852C3F3024001849EF /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4842C3F3024001849EF /* DetailController.swift */; };
+		3C03F4872C3F305D001849EF /* SceneDelegate+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03F4862C3F305D001849EF /* SceneDelegate+Home.swift */; };
+		3C03F4F32C412DF0001849EF /* DENMovNowPlayingiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C03F4F22C412DF0001849EF /* DENMovNowPlayingiOS.framework */; };
+		3C03F4F42C412DF0001849EF /* DENMovNowPlayingiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C03F4F22C412DF0001849EF /* DENMovNowPlayingiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C8282A52C4AE90F004A1982 /* SceneDelegate+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8282A42C4AE90F004A1982 /* SceneDelegate+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C03F4312C3F1B87001849EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C03F40F2C3F1B86001849EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C03F4162C3F1B86001849EF;
+			remoteInfo = DENMov;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C03F47E2C3F2988001849EF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3C03F47D2C3F2988001849EF /* DENMovNetworking.framework in Embed Frameworks */,
+				3C03F4F42C412DF0001849EF /* DENMovNowPlayingiOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C03F4172C3F1B86001849EF /* DENMov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DENMov.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C03F41A2C3F1B86001849EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C03F41C2C3F1B86001849EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C03F4242C3F1B86001849EF /* DENMov.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DENMov.xcdatamodel; sourceTree = "<group>"; };
+		3C03F4262C3F1B87001849EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C03F4292C3F1B87001849EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C03F42B2C3F1B87001849EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C03F4302C3F1B87001849EF /* DENMovTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DENMovTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C03F4342C3F1B87001849EF /* DENMovTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DENMovTests.swift; sourceTree = "<group>"; };
+		3C03F4782C3F292D001849EF /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		3C03F47B2C3F2988001849EF /* DENMovNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DENMovNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C03F4802C3F2D7B001849EF /* APIConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIConfig.plist; sourceTree = "<group>"; };
+		3C03F4822C3F2DB6001849EF /* GETConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETConfig.swift; sourceTree = "<group>"; };
+		3C03F4842C3F3024001849EF /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		3C03F4862C3F305D001849EF /* SceneDelegate+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneDelegate+Home.swift"; sourceTree = "<group>"; };
+		3C03F4F22C412DF0001849EF /* DENMovNowPlayingiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DENMovNowPlayingiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8282A42C4AE90F004A1982 /* SceneDelegate+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneDelegate+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C03F4142C3F1B86001849EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C03F47C2C3F2988001849EF /* DENMovNetworking.framework in Frameworks */,
+				3C03F4F32C412DF0001849EF /* DENMovNowPlayingiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C03F42D2C3F1B87001849EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C03F40E2C3F1B86001849EF = {
+			isa = PBXGroup;
+			children = (
+				3C03F4192C3F1B86001849EF /* DENMov */,
+				3C03F4332C3F1B87001849EF /* DENMovTests */,
+				3C03F4182C3F1B86001849EF /* Products */,
+				3C03F47A2C3F2988001849EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C03F4182C3F1B86001849EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C03F4172C3F1B86001849EF /* DENMov.app */,
+				3C03F4302C3F1B87001849EF /* DENMovTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C03F4192C3F1B86001849EF /* DENMov */ = {
+			isa = PBXGroup;
+			children = (
+				3C03F47F2C3F2D53001849EF /* Utils */,
+				3C03F41A2C3F1B86001849EF /* AppDelegate.swift */,
+				3C03F41C2C3F1B86001849EF /* SceneDelegate.swift */,
+				3C8282A42C4AE90F004A1982 /* SceneDelegate+Ext.swift */,
+				3C03F4862C3F305D001849EF /* SceneDelegate+Home.swift */,
+				3C03F4782C3F292D001849EF /* HomeController.swift */,
+				3C03F4842C3F3024001849EF /* DetailController.swift */,
+				3C03F4262C3F1B87001849EF /* Assets.xcassets */,
+				3C03F4282C3F1B87001849EF /* LaunchScreen.storyboard */,
+				3C03F42B2C3F1B87001849EF /* Info.plist */,
+				3C03F4802C3F2D7B001849EF /* APIConfig.plist */,
+				3C03F4232C3F1B86001849EF /* DENMov.xcdatamodeld */,
+			);
+			path = DENMov;
+			sourceTree = "<group>";
+		};
+		3C03F4332C3F1B87001849EF /* DENMovTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C03F4342C3F1B87001849EF /* DENMovTests.swift */,
+			);
+			path = DENMovTests;
+			sourceTree = "<group>";
+		};
+		3C03F47A2C3F2988001849EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C03F4F22C412DF0001849EF /* DENMovNowPlayingiOS.framework */,
+				3C03F47B2C3F2988001849EF /* DENMovNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C03F47F2C3F2D53001849EF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3C03F4822C3F2DB6001849EF /* GETConfig.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C03F4162C3F1B86001849EF /* DENMov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C03F4442C3F1B87001849EF /* Build configuration list for PBXNativeTarget "DENMov" */;
+			buildPhases = (
+				3C03F4132C3F1B86001849EF /* Sources */,
+				3C03F4142C3F1B86001849EF /* Frameworks */,
+				3C03F4152C3F1B86001849EF /* Resources */,
+				3C03F47E2C3F2988001849EF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DENMov;
+			productName = DENMov;
+			productReference = 3C03F4172C3F1B86001849EF /* DENMov.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C03F42F2C3F1B87001849EF /* DENMovTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C03F4472C3F1B87001849EF /* Build configuration list for PBXNativeTarget "DENMovTests" */;
+			buildPhases = (
+				3C03F42C2C3F1B87001849EF /* Sources */,
+				3C03F42D2C3F1B87001849EF /* Frameworks */,
+				3C03F42E2C3F1B87001849EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C03F4322C3F1B87001849EF /* PBXTargetDependency */,
+			);
+			name = DENMovTests;
+			productName = DENMovTests;
+			productReference = 3C03F4302C3F1B87001849EF /* DENMovTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C03F40F2C3F1B86001849EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3C03F4162C3F1B86001849EF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3C03F42F2C3F1B87001849EF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3C03F4162C3F1B86001849EF;
+					};
+				};
+			};
+			buildConfigurationList = 3C03F4122C3F1B86001849EF /* Build configuration list for PBXProject "DENMov" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C03F40E2C3F1B86001849EF;
+			productRefGroup = 3C03F4182C3F1B86001849EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C03F4162C3F1B86001849EF /* DENMov */,
+				3C03F42F2C3F1B87001849EF /* DENMovTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C03F4152C3F1B86001849EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C03F42A2C3F1B87001849EF /* LaunchScreen.storyboard in Resources */,
+				3C03F4272C3F1B87001849EF /* Assets.xcassets in Resources */,
+				3C03F4812C3F2D7B001849EF /* APIConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C03F42E2C3F1B87001849EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C03F4132C3F1B86001849EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C03F4792C3F292D001849EF /* HomeController.swift in Sources */,
+				3C03F4832C3F2DB6001849EF /* GETConfig.swift in Sources */,
+				3C03F4252C3F1B86001849EF /* DENMov.xcdatamodeld in Sources */,
+				3C03F4872C3F305D001849EF /* SceneDelegate+Home.swift in Sources */,
+				3C03F41B2C3F1B86001849EF /* AppDelegate.swift in Sources */,
+				3C03F4852C3F3024001849EF /* DetailController.swift in Sources */,
+				3C03F41D2C3F1B86001849EF /* SceneDelegate.swift in Sources */,
+				3C8282A52C4AE90F004A1982 /* SceneDelegate+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C03F42C2C3F1B87001849EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C03F4352C3F1B87001849EF /* DENMovTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C03F4322C3F1B87001849EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C03F4162C3F1B86001849EF /* DENMov */;
+			targetProxy = 3C03F4312C3F1B87001849EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C03F4282C3F1B87001849EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C03F4292C3F1B87001849EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C03F4422C3F1B87001849EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C03F4432C3F1B87001849EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C03F4452C3F1B87001849EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLFSR5SCHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DENMov/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denazmi.DENMov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C03F4462C3F1B87001849EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLFSR5SCHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DENMov/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denazmi.DENMov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C03F4482C3F1B87001849EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLFSR5SCHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denazmi.DENMovTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DENMov.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DENMov";
+			};
+			name = Debug;
+		};
+		3C03F4492C3F1B87001849EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLFSR5SCHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denazmi.DENMovTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DENMov.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DENMov";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C03F4122C3F1B86001849EF /* Build configuration list for PBXProject "DENMov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C03F4422C3F1B87001849EF /* Debug */,
+				3C03F4432C3F1B87001849EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C03F4442C3F1B87001849EF /* Build configuration list for PBXNativeTarget "DENMov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C03F4452C3F1B87001849EF /* Debug */,
+				3C03F4462C3F1B87001849EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C03F4472C3F1B87001849EF /* Build configuration list for PBXNativeTarget "DENMovTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C03F4482C3F1B87001849EF /* Debug */,
+				3C03F4492C3F1B87001849EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C03F4232C3F1B86001849EF /* DENMov.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C03F4242C3F1B86001849EF /* DENMov.xcdatamodel */,
+			);
+			currentVersion = 3C03F4242C3F1B86001849EF /* DENMov.xcdatamodel */;
+			path = DENMov.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C03F40F2C3F1B86001849EF /* Project object */;
+}

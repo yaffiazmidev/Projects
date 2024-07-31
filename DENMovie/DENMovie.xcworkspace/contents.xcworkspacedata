@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Modules/DENMovieNowPlaying/DENMovieNowPlaying.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules/DENMovieNetworking/DENMovieNetworking.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:DENMovie.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "ED3FA22F-B6ED-4299-85AA-FC80D910614C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A63F59E-3EC5-48A9-80F6-E490B61C6CD4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DEN-TMDB-V1/Scenes/Home/API/RemoteNowPlayingLoader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "execute(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A63F59E-3EC5-48A9-80F6-E490B61C6CD4 - 11759dcb9c4803b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(data: Foundation.Data, response: __C.NSHTTPURLResponse), Swift.Error&gt;) -&gt; () in DEN_TMDB_V1.RemoteNowPlayingLoader.execute(_: DEN_TMDB_V1.NowPlayingRequest, completion: (Swift.Result&lt;DEN_TMDB_V1.NowPlayingFeed, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DEN-TMDB-V1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denazmi/Azmi/Workspace/Github-repo/Projects/DEN-TMDB-V1/DEN-TMDB-V1/Scenes/Home/API/RemoteNowPlayingLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "4A63F59E-3EC5-48A9-80F6-E490B61C6CD4 - 11759dcb9c4803b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(data: Foundation.Data, response: __C.NSHTTPURLResponse), Swift.Error&gt;) -&gt; () in DEN_TMDB_V1.RemoteNowPlayingLoader.execute(_: DEN_TMDB_V1.NowPlayingRequest, completion: (Swift.Result&lt;DEN_TMDB_V1.NowPlayingFeed, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DEN-TMDB-V1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denazmi/Azmi/Workspace/Github-repo/Projects/DEN-TMDB-V1/DEN-TMDB-V1/Scenes/Home/API/RemoteNowPlayingLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "564">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90BEF4B0-0BCC-4E94-B1C8-777D48A0CC88"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DEN-TMDB-V1/Scenes/Home/API/RemoteNowPlayingLoader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "execute(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "90BEF4B0-0BCC-4E94-B1C8-777D48A0CC88 - 11759dcb9c4803f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(data: Foundation.Data, response: __C.NSHTTPURLResponse), Swift.Error&gt;) -&gt; () in DEN_TMDB_V1.RemoteNowPlayingLoader.execute(_: DEN_TMDB_V1.NowPlayingRequest, completion: (Swift.Result&lt;DEN_TMDB_V1.NowPlayingFeed, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DEN-TMDB-V1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denazmi/Azmi/Workspace/Github-repo/Projects/DEN-TMDB-V1/DEN-TMDB-V1/Scenes/Home/API/RemoteNowPlayingLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "90BEF4B0-0BCC-4E94-B1C8-777D48A0CC88 - 11759dcb9c4803f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(data: Foundation.Data, response: __C.NSHTTPURLResponse), Swift.Error&gt;) -&gt; () in DEN_TMDB_V1.RemoteNowPlayingLoader.execute(_: DEN_TMDB_V1.NowPlayingRequest, completion: (Swift.Result&lt;DEN_TMDB_V1.NowPlayingFeed, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DEN-TMDB-V1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denazmi/Azmi/Workspace/Github-repo/Projects/DEN-TMDB-V1/DEN-TMDB-V1/Scenes/Home/API/RemoteNowPlayingLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9066767F-6F9E-4E76-AB76-49AF07916BDC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DEN-TMDB-V1/Scenes/Home/API/RemoteNowPlayingFeedMapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "map(_:from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6700A2EE-5AC0-4DD4-89AF-A56CBA47373B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DEN-TMDB-V1/Scenes/Home/API/RemoteNowPlayingFeedMapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "map(_:from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
